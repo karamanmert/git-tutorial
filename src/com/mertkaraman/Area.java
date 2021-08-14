@@ -6,7 +6,8 @@ public class Area {
     public Area(IArea area) {
         this.area = area;
     }
-    public void calculateArea(){
-        this.area.calculateArea();
+
+    public int calculateArea(){
+        return  this.area.calculateArea();
     }
 }
