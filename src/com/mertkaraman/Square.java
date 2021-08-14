@@ -1,5 +1,5 @@
 package com.mertkaraman;
-
+//mert
 public class Square implements IArea {
     int a;
 
