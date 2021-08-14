@@ -1,0 +1,9 @@
+senaryo:
+1-birisi bir şeyleri mastere ekledi. senden önce..
+sende kendine bir şeyler ekledin.
+bunu mastera nasıl atarsın?
+
+2-conflict çıakrsa nasıl düzeltirsin?
+
+
+1- Değişikliklerden sonra git add . ve git commit yapıp gönder.
