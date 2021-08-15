@@ -1,5 +1,31 @@
 https://rogerdudler.github.io/git-guide/index.html
 
+git --version -> version checking
+(posh-git - incele)
+git config --global user.name "Mert Karaman"
+git config --global user.email mertkrmn06@gmail.com
+git init ->to create a new git repository.
+git clone <url> -> When you create a repository on GitHub, it exists as a remote repository. You can clone your repository to create a local copy on your computer and sync between the two locations.
+git status -> Show the working tree status
+git add mert.txt -> stage e mert.txt'yi ekler.
+git add . -> o directory altındaki eklenmemiş her şeyi stage e ekler.
+git commit -m "commit msg"
+.gitignore -> commitlemek istemediğimiz dosyalar..
+git diff --staged -> stage deki değişiklikleri gösteriyor.. neler ekledin çıkardın vs.
+git diff -> unstaged changes
+git log -> history..
+git log --oneline -> commitleri tek tek gösterir daha kısa
+git show
+git checkout x -> x adında bir branch varsa oraya gider.
+git checkout -b x->x adında bir branch oluşturur.
+HEAD -> is a reference to the current branch
+git push -> localindeki commitleri remota repo ya gönderir.
+git pull -> remote repodaki değişiklikleri localine çeker.
+git merge -> branchleri birleştirir.
+git branch -d feature_x -> feature_x brancini siler.
+
+
+
 1-) ###create a new repository###
 create a new directory, open it and perform a
         "git init"
